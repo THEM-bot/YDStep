@@ -1,0 +1,20 @@
+# Build output
+build/
+*.idsig
+
+# Signing material must never be committed.
+# Keep your release keystore outside this repository and pass it via
+# YDSTEP_KEYSTORE when building.
+keystore/
+*.keystore
+*.jks
+
+# Local tool paths
+local.properties
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
