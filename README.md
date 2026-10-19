@@ -2,20 +2,20 @@
 
 一个 LSPosed 模块，通过 hook 悦动圈的步数累加入口来放大步数。
 
-**当前发布版本：20 倍**（`release/YDStep-20x.apk`）
+**当前发布版本：20 倍**（`release/YDStep.apk`）
 
 ---
 
 ## 快速开始
 
 ```
-1. 安装 release/YDStep-20x.apk
+1. 安装 release/YDStep.apk
 2. LSPosed → 模块 → 启用「步数注入」→ 作用域勾选「悦动圈」
 3. 强制停止悦动圈，重新打开
 4. 正常走路即可看到 20 倍增长
 ```
 
-> `release/YDStep-20x.apk` 用的是作者本人的签名密钥，只用于直接体验。
+> `release/YDStep.apk` 用的是作者本人的签名密钥，只用于直接体验。
 > 自己构建出来的 APK 签名不同，**无法覆盖安装**，需要先卸载再装。
 
 改倍率：编辑 `src/com/ydstep/BuildConfig.java` 里的 `FACTOR`，重新构建安装。
@@ -40,7 +40,7 @@ YDStep/
 │   ├── build.ps1               无 Gradle 构建脚本
 │   └── build.bat               Windows 快捷入口
 └── release/
-    └── YDStep-20x.apk          可直接安装的发布包
+    └── YDStep.apk          可直接安装的发布包
 ```
 
 ---
